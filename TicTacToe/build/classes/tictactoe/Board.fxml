@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="328.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.BoardController">
+   <children>
+      <Button fx:id="Butt7" layoutX="298.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt6" layoutX="208.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt8" layoutX="388.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt3" layoutX="208.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt4" layoutX="298.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt5" layoutX="388.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt0" layoutX="208.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt1" layoutX="298.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="Butt2" layoutX="388.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#Turn" prefHeight="90.0" prefWidth="90.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Label fx:id="p1Label" layoutX="10.0" layoutY="132.0" prefHeight="47.0" prefWidth="104.0" text="Player 1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p2Label" layoutX="10.0" layoutY="209.0" prefHeight="47.0" prefWidth="112.0" text="Player 2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="132.0" prefHeight="47.0" prefWidth="24.0" text="O">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="209.0" prefHeight="47.0" prefWidth="24.0" text="X">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="57.0" prefHeight="56.0" prefWidth="137.0" text="Players">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="42.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#startClicked" prefHeight="30.0" prefWidth="77.0" text="Start" />
+   </children>
+</AnchorPane>
